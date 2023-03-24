@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>js homework-9</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box col-md-4">
+            <button class="legalAge all">სტუდენტები, რომლებიც არიან სრულწლოვნები</button>
+        <button class="register all ">სტუდენტები, რომლებიც რეგისტრირებულია 2021წლის შემდეგ</button>
+        <button class="program all">ყველა სტუდენტს რომელიც სწავლობს პროგრამირებაზე</button>
+        <button class="fullAttendance all">ყველა სტუდენტს რომელსაც  აქვს 100% დასწრება</button>
+        <button class="hasStipend all">ყველა სტუდენტს რომელსაც აქვს სტიპენდია</button>
+        <input type="text" name="" id="search" placeholder="მოძებნეთ სტუდენტი სახელით ან გვარით">
+        </div>
+        <div>
+            <form>
+                <label for="framework" >კურსის ტიპების ჩამონათვალი</label>
+                <select id="framework"class="form-select form-select-sm" aria-label=".form-select-sm example" onchange="onSelect()">
+                    <option value="1">პროგრამირება</option>
+                    <option value="2">დიზაინი</option>
+                    <option value="3">სოციალური მარკეტინგი</option>
+                </select>
+            </form>
+      </div>
+        <div class="row">
+            <div class="cards">
+
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
